@@ -40,6 +40,8 @@ else:
 
 df = df.dropna(subset=['Car_Name','Year'])  #remove rows with missing values in only these two columns
 
+df.Car_Name.count()
+
 abc = []
 abc.append(23)
 abc.append(45)
@@ -78,3 +80,5 @@ abc[3]
 [44]
 abc[5]
 '''
+
+
